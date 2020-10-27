@@ -1,0 +1,1 @@
+{"TILT_SERIES_DIR": "/home/mohamadt/workspace/seq_frame_compltion/data/Aberated/npys", "N_SERIES": 101, "N_FRAMES": 181, "N_TRAIN": 91, "FRAME_GAPS": [2, 4, 10, 12], "NOISE_LEVELS": [500.0, 1000.0, 2000.0, 4000.0], "REP": 3, "TRAIN_TEST_SPLIT": 0.9}
