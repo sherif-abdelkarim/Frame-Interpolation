@@ -73,7 +73,7 @@ def train(model, x_train, y_train, x_val, y_val, model_name):
 
     my_callbacks = [
     
-    keras.callbacks.ModelCheckpoint(filepath=f'{model_name[:-3}_checkpoint.h5',
+    keras.callbacks.ModelCheckpoint(filepath=f'{model_name[:-3]}_checkpoint.h5',
     monitor='ssim_loss', save_best_only=True, verbose=1),
     keras.callbacks.EarlyStopping(monitor='ssim_loss', patience=3)
     ]
