@@ -7,13 +7,22 @@ import random
 
 import sherpa
 import sys
+import json
 
 import numpy as np
 import os
 import matplotlib.pyplot as plt
 from ssim_loss import *
 
-os.environ["CUDA_VISIBLE_DEVICES"]="2"
+physical_devices = tf.config.experimental.list_physical_devices('GPU')
+tf.config.experimental.set_memory_growth(physical_devices[0], True)
+#os.environ["CUDA_VISIBLE_DEVICES"]="0"
+"""
+if tf.config.list_physical_devices('GPU'):
+    physical_devices = tf.config.list_physical_devices('GPU')
+    tf.config.experimental.set_memory_growth(physical_devices[0], enable=True)
+    tf.config.experimental.set_virtual_device_configuration(physical_devices[0],        [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=4000)])
+"""
 
 
 def build_model(f_1, f_2, k_1, k_2, s_1, s_2, d, ssim=True):
@@ -86,11 +95,12 @@ if __name__=="__main__":
     
     # or a sample of the optimized model using sherpa
     model_params = sys.argv[1]
-    model_params = json.load(model_params)
+    with open (model_params) as f:
+        model_params = json.load(f)
 
     train_file = sys.argv[2]
 
-    model_name = filename[:-5]+"_model.h5"
+    model_name = train_file[:-5]+"_model.h5"
 
     f  = h5py.File(train_file)
     x_train = f['x_train']
