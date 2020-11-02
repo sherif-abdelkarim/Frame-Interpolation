@@ -1,5 +1,5 @@
 import tensorflow as tf
-import keras
+
 from keras.layers import Input, Conv2D, Flatten, Dense
 from keras.layers import Reshape, Concatenate
 from keras.models import Model
@@ -69,18 +69,8 @@ def build_model(f_1, f_2, k_1, k_2, s_1, s_2, d, ssim=True):
 
     
 def train(model, x_train, y_train, x_val, y_val, model_name):
-
-    #edited some things here 'ssim_loss' -> validation loss
-    my_callbacks = [
-    
-    keras.callbacks.ModelCheckpoint(filepath=f'{model_name[:-3]}_checkpoint.h5',
-    monitor='val_ssim_loss', save_best_only=True, verbose=1),
-    keras.callbacks.EarlyStopping(monitor='val_ssim_loss', patience=3)
-    ]
-    
     #model.fit(x_train, y_train, epochs=100, batch_size=64, validation_data=(x_val, y_val))
-    #added validation maybe it won't work
-    history = model.fit(x_train, y_train, epochs=100, batch_size=64, callbacks=my_callbacks, validation_data=(x_val, y_val))
+    history = model.fit(x_train, y_train, epochs=50, batch_size=64)
     model.save(model_name)
     
     plt.figure(figsize=(10,10))

@@ -2,6 +2,8 @@ import numpy as np
 import os
 import h5py
 import random
+import sys
+import json
 
 def setup_frames(ts_data, delta):
     """
@@ -116,13 +118,16 @@ def write_into_h5(file_name, x_train, y_train, x_val, y_val):
 if __name__ == "__main__":
 
     h_params_file = sys.argv[1]
-    h_params = json.load(h_params_file)
+    
+    with open (h_params_file) as f:
+        h_params = json.load(f)
+    #h_params = json.load(h_params_file)
 
-    TILT_SERIES_DIR = h_params['tilt_series_dir']
-    FRAME_GAPS = h_params['frame_gaps']
-    NOISE_LEVELS = h_params['noise_levels']
-    REP = h_params['rep']
-    TRAIN_TEST_SPLIT = h_params['train_test_split']
+    TILT_SERIES_DIR = h_params['TILT_SERIES_DIR']
+    FRAME_GAPS = h_params['FRAME_GAPS']
+    NOISE_LEVELS = h_params['NOISE_LEVELS']
+    REP = h_params['REP']
+    TRAIN_TEST_SPLIT = h_params['TRAIN_TEST_SPLIT']
     
 
     tilt_series_list = []
@@ -134,7 +139,7 @@ if __name__ == "__main__":
     # make sure that the values are exactly between 0 and 1
     tilt_series_list = [x / np.max(x) for x in tilt_series_list]
     # change size from 50 x 50 to 48 x 48
-    tilt_series_list = [np.swapaxes(x, 0, 2)[:, 1:49, 1:49] for x in tilt_series_list]
+    tilt_series_list = [np.swapaxes(x, 0, 2)[:, :, :] for x in tilt_series_list]
     prepare_data(tilt_series_list, frame_gaps=FRAME_GAPS, noise_levels=NOISE_LEVELS, rep=REP, 
                  train_test_split=TRAIN_TEST_SPLIT)
 
