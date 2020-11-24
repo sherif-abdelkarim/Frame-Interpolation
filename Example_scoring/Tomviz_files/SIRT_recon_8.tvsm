@@ -1,0 +1,535 @@
+{
+    "dataSources": [
+        {
+            "colorMap2DBox": {
+                "height": 26521.1875,
+                "width": 106084.75,
+                "x": 0,
+                "y": 0
+            },
+            "colorOpacityMap": {
+                "colorSpace": "Diverging",
+                "colors": [
+                    5.583904112427263e-06,
+                    0.050383,
+                    0.029803,
+                    0.527975,
+                    176567.88098023352,
+                    0.193374,
+                    0.018354,
+                    0.59033,
+                    353135.7619548832,
+                    0.299855,
+                    0.009561,
+                    0.631624,
+                    529703.6429295328,
+                    0.399411,
+                    0.000859,
+                    0.656133,
+                    706271.5239041824,
+                    0.494877,
+                    0.01199,
+                    0.657865,
+                    882839.404878832,
+                    0.584391,
+                    0.068579,
+                    0.632812,
+                    1059410.0999084818,
+                    0.665129,
+                    0.138566,
+                    0.585582,
+                    1235977.9808831315,
+                    0.736019,
+                    0.209439,
+                    0.527908,
+                    1412545.8618577812,
+                    0.798216,
+                    0.280197,
+                    0.469538,
+                    1589113.7428324309,
+                    0.853319,
+                    0.351553,
+                    0.413734,
+                    1765681.6238070803,
+                    0.901807,
+                    0.425087,
+                    0.359688,
+                    1942249.5047817302,
+                    0.942598,
+                    0.502639,
+                    0.305816,
+                    2118817.3857563795,
+                    0.973416,
+                    0.585761,
+                    0.25154,
+                    2295385.2667310294,
+                    0.991365,
+                    0.675355,
+                    0.198453,
+                    2471953.147705679,
+                    0.993033,
+                    0.77172,
+                    0.154808,
+                    2648521.0286803283,
+                    0.974443,
+                    0.874622,
+                    0.144061,
+                    2814055,
+                    0.940015,
+                    0.975158,
+                    0.131326
+                ],
+                "points": [
+                    5.583904112427263e-06,
+                    0,
+                    0.5,
+                    0,
+                    2814055,
+                    1,
+                    0.5,
+                    0
+                ]
+            },
+            "gradientOpacityMap": {
+                "points": [
+                ]
+            },
+            "id": "0x2a330b0",
+            "operators": [
+                {
+                    "angles": [
+                        -90, -82, -74, -66, -58, -50, -42, -34, -26, -18, -10, -2, 6, 14, 22, 30, 38, 46, 54, 62, 70, 78, 86
+                    ],
+                    "id": "0x34165f0",
+                    "type": "SetTiltAngles"
+                },
+                {
+                    "arguments": {
+                        "Niter": 10,
+                        "Nupdates": 0,
+                        "stepSize": 0.0001,
+                        "updateMethodIndex": 0
+                    },
+                    "dataSources": [
+                        {
+                            "colorMap2DBox": {
+                                "height": 0.25,
+                                "width": 1,
+                                "x": 0,
+                                "y": 0
+                            },
+                            "colorOpacityMap": {
+                                "colorSpace": "Diverging",
+                                "colors": [
+                                    0,
+                                    0.050383,
+                                    0.029803,
+                                    0.527975,
+                                    6656.287638749999,
+                                    0.193374,
+                                    0.018354,
+                                    0.59033,
+                                    13312.575277499998,
+                                    0.299855,
+                                    0.009561,
+                                    0.631624,
+                                    19968.86291625,
+                                    0.399411,
+                                    0.000859,
+                                    0.656133,
+                                    26625.150554999997,
+                                    0.494877,
+                                    0.01199,
+                                    0.657865,
+                                    33281.43819375,
+                                    0.584391,
+                                    0.068579,
+                                    0.632812,
+                                    39937.83191725,
+                                    0.665129,
+                                    0.138566,
+                                    0.585582,
+                                    46594.119556,
+                                    0.736019,
+                                    0.209439,
+                                    0.527908,
+                                    53250.40719475,
+                                    0.798216,
+                                    0.280197,
+                                    0.469538,
+                                    59906.694833500005,
+                                    0.853319,
+                                    0.351553,
+                                    0.413734,
+                                    66562.98247225,
+                                    0.901807,
+                                    0.425087,
+                                    0.359688,
+                                    73219.270111,
+                                    0.942598,
+                                    0.502639,
+                                    0.305816,
+                                    79875.55774974999,
+                                    0.973416,
+                                    0.585761,
+                                    0.25154,
+                                    86531.8453885,
+                                    0.991365,
+                                    0.675355,
+                                    0.198453,
+                                    93188.13302724999,
+                                    0.993033,
+                                    0.77172,
+                                    0.154808,
+                                    99844.42066599999,
+                                    0.974443,
+                                    0.874622,
+                                    0.144061,
+                                    106084.75,
+                                    0.940015,
+                                    0.975158,
+                                    0.131326
+                                ],
+                                "points": [
+                                    0,
+                                    0,
+                                    0.5,
+                                    0,
+                                    106084.75,
+                                    1,
+                                    0.5,
+                                    0
+                                ]
+                            },
+                            "gradientOpacityMap": {
+                                "points": [
+                                    0,
+                                    0,
+                                    0.5,
+                                    0,
+                                    26521.1875,
+                                    1,
+                                    0.5,
+                                    0
+                                ]
+                            },
+                            "id": "0x2a628c0",
+                            "label": "Reconstruction",
+                            "modules": [
+                                {
+                                    "activeScalars": -1,
+                                    "id": "0x3f2af10",
+                                    "properties": {
+                                        "gridColor": [
+                                            0.8,
+                                            0.8,
+                                            0.8
+                                        ],
+                                        "gridLines": false,
+                                        "gridVisibility": false,
+                                        "visibility": false
+                                    },
+                                    "type": "Outline",
+                                    "viewId": 4385
+                                },
+                                {
+                                    "activeScalars": -1,
+                                    "id": "0x4f530f0",
+                                    "properties": {
+                                        "direction": "XY",
+                                        "interpolate": false,
+                                        "mapOpacity": false,
+                                        "mapScalars": true,
+                                        "opacity": 1,
+                                        "origin": [
+                                            -0.5,
+                                            -0.5,
+                                            49
+                                        ],
+                                        "point1": [
+                                            49.5,
+                                            -0.5,
+                                            49
+                                        ],
+                                        "point2": [
+                                            -0.5,
+                                            49.5,
+                                            49
+                                        ],
+                                        "showArrow": true,
+                                        "slice": 49,
+                                        "sliceThickness": 1,
+                                        "thickSliceMode": 3,
+                                        "visibility": false
+                                    },
+                                    "type": "Slice",
+                                    "useDetachedColorMap": false,
+                                    "viewId": 4385
+                                },
+                                {
+                                    "activeScalars": -1,
+                                    "id": "0x5093120",
+                                    "properties": {
+                                        "blendingMode": 0,
+                                        "interpolation": 1,
+                                        "lighting": {
+                                            "ambient": 0,
+                                            "diffuse": 1,
+                                            "enabled": false,
+                                            "specular": 1,
+                                            "specularPower": 100
+                                        },
+                                        "rayJittering": true,
+                                        "transferMode": 0,
+                                        "visibility": false
+                                    },
+                                    "type": "Volume",
+                                    "useDetachedColorMap": false,
+                                    "viewId": 4385
+                                }
+                            ],
+                            "operators": [
+                                {
+                                    "arguments": {
+                                        "enable_valley_emphasis": false,
+                                        "number_of_thresholds": 1
+                                    },
+                                    "dataSources": [
+                                        {
+                                            "colorMap2DBox": {
+                                                "height": 0.25,
+                                                "width": 1,
+                                                "x": 0,
+                                                "y": 0
+                                            },
+                                            "colorOpacityMap": {
+                                                "colorSpace": "Diverging",
+                                                "colors": [
+                                                    0,
+                                                    0.050383,
+                                                    0.029803,
+                                                    0.527975,
+                                                    0.062745,
+                                                    0.193374,
+                                                    0.018354,
+                                                    0.59033,
+                                                    0.12549,
+                                                    0.299855,
+                                                    0.009561,
+                                                    0.631624,
+                                                    0.188235,
+                                                    0.399411,
+                                                    0.000859,
+                                                    0.656133,
+                                                    0.25098,
+                                                    0.494877,
+                                                    0.01199,
+                                                    0.657865,
+                                                    0.313725,
+                                                    0.584391,
+                                                    0.068579,
+                                                    0.632812,
+                                                    0.376471,
+                                                    0.665129,
+                                                    0.138566,
+                                                    0.585582,
+                                                    0.439216,
+                                                    0.736019,
+                                                    0.209439,
+                                                    0.527908,
+                                                    0.501961,
+                                                    0.798216,
+                                                    0.280197,
+                                                    0.469538,
+                                                    0.564706,
+                                                    0.853319,
+                                                    0.351553,
+                                                    0.413734,
+                                                    0.6274510000000001,
+                                                    0.901807,
+                                                    0.425087,
+                                                    0.359688,
+                                                    0.690196,
+                                                    0.942598,
+                                                    0.502639,
+                                                    0.305816,
+                                                    0.7529409999999999,
+                                                    0.973416,
+                                                    0.585761,
+                                                    0.25154,
+                                                    0.815686,
+                                                    0.991365,
+                                                    0.675355,
+                                                    0.198453,
+                                                    0.878431,
+                                                    0.993033,
+                                                    0.77172,
+                                                    0.154808,
+                                                    0.941176,
+                                                    0.974443,
+                                                    0.874622,
+                                                    0.144061,
+                                                    1,
+                                                    0.940015,
+                                                    0.975158,
+                                                    0.131326
+                                                ],
+                                                "points": [
+                                                    0,
+                                                    0,
+                                                    0.5,
+                                                    0,
+                                                    0.0710957869887352,
+                                                    0.06542056053876877,
+                                                    0.5,
+                                                    0,
+                                                    1,
+                                                    1,
+                                                    0.5,
+                                                    0
+                                                ]
+                                            },
+                                            "gradientOpacityMap": {
+                                                "points": [
+                                                    0,
+                                                    0,
+                                                    0.5,
+                                                    0,
+                                                    0.25,
+                                                    1,
+                                                    0.5,
+                                                    0
+                                                ]
+                                            },
+                                            "id": "0x264ada0",
+                                            "label": "Label Map",
+                                            "modules": [
+                                                {
+                                                    "activeScalars": -1,
+                                                    "id": "0x4368c40",
+                                                    "properties": {
+                                                        "blendingMode": 0,
+                                                        "interpolation": 1,
+                                                        "lighting": {
+                                                            "ambient": 0,
+                                                            "diffuse": 1,
+                                                            "enabled": false,
+                                                            "specular": 1,
+                                                            "specularPower": 100
+                                                        },
+                                                        "rayJittering": true,
+                                                        "transferMode": 0,
+                                                        "visibility": true
+                                                    },
+                                                    "type": "Volume",
+                                                    "useDetachedColorMap": false,
+                                                    "viewId": 4385
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "description": "{\n  \"name\" : \"OtsuMultipleThreshold\",\n  \"label\" : \"Otsu Multiple Threshold\",\n  \"description\" : \"Use Otsu multiple threshold algorithm to automatically determine thresholds separating voxels into different classes based on image intensity.\",\n  \"externalCompatible\": false,\n  \"children\" : [\n    {\n      \"name\" : \"label_map\",\n      \"label\" : \"Label Map\",\n      \"type\" : \"label_map\"\n    }\n  ],\n  \"parameters\" : [\n    {\n      \"name\" : \"number_of_thresholds\",\n      \"label\" : \"Number of Thresholds\",\n      \"type\" : \"int\",\n      \"default\" : 1,\n      \"minimum\" : 1\n    },\n    {\n      \"name\" : \"enable_valley_emphasis\",\n      \"label\" : \"Enable Valley Emphasis\",\n      \"type\" : \"bool\",\n      \"default\" : false\n    }\n  ]\n}\n",
+                                    "id": "0x755d420",
+                                    "label": "Otsu Multiple Threshold",
+                                    "script": "import tomviz.operators\n\n\nclass OtsuMultipleThreshold(tomviz.operators.CancelableOperator):\n\n    def transform(self, dataset, number_of_thresholds=1,\n                  enable_valley_emphasis=False):\n        \"\"\"This filter performs semi-automatic multithresholding of a data set.\n        Voxels are automatically classified into a chosen number of classes such\n        that inter-class variance of the voxel values is minimized. The output\n        is a label map with one label per voxel class.\n        \"\"\"\n\n        # Initial progress\n        self.progress.value = 0\n        self.progress.maximum = 100\n\n        # Approximate percentage of work completed after each step in the\n        # transform\n        STEP_PCT = [10, 20, 70, 90, 100]\n\n        try:\n            import itk\n            import itkExtras\n            import itkTypes\n            from tomviz import itkutils\n        except Exception as exc:\n            print(\"Could not import necessary module(s)\")\n            raise exc\n\n        # Return values\n        returnValues = None\n\n        # Add a try/except around the ITK portion. ITK exceptions are\n        # passed up to the Python layer, so we can at least report what\n        # went wrong with the script, e.g,, unsupported image type.\n        try:\n            self.progress.value = STEP_PCT[0]\n            self.progress.message = \"Converting data to ITK image\"\n\n            # Get the ITK image\n            itk_image = itkutils.dataset_to_itk_image(dataset)\n            itk_input_image_type = type(itk_image)\n\n            # OtsuMultipleThresholdsImageFilter's wrapping requires that the\n            # input and output image types be the same.\n            itk_threshold_image_type = itk_input_image_type\n\n            # Otsu multiple threshold filter\n            otsu_filter = itk.OtsuMultipleThresholdsImageFilter[\n                itk_input_image_type, itk_threshold_image_type].New()\n            otsu_filter.SetNumberOfThresholds(number_of_thresholds)\n            otsu_filter.SetValleyEmphasis(enable_valley_emphasis)\n            otsu_filter.SetInput(itk_image)\n            itkutils.observe_filter_progress(self, otsu_filter,\n                                             STEP_PCT[1], STEP_PCT[2])\n\n            try:\n                otsu_filter.Update()\n            except RuntimeError:\n                return\n\n            print(\"Otsu threshold(s): %s\" % (otsu_filter.GetThresholds(),))\n\n            itk_image_data = otsu_filter.GetOutput()\n\n            # Cast threshold output to an integral type if needed.\n            py_buffer_type = itk_threshold_image_type\n            voxel_type = itkExtras.template(itk_threshold_image_type)[1][0]\n            if voxel_type is itkTypes.F or voxel_type is itkTypes.D:\n                self.progress.message = \"Casting output to integral type\"\n\n                # Unsigned char supports 256 labels, or 255 threshold levels.\n                # This should be sufficient for all but the most unusual use\n                # cases.\n                py_buffer_type = itk.Image.UC3\n                caster = itk.CastImageFilter[itk_threshold_image_type,\n                                             py_buffer_type].New()\n                caster.SetInput(itk_image_data)\n                itkutils.observe_filter_progress(self, caster,\n                                                 STEP_PCT[2], STEP_PCT[3])\n\n                try:\n                    caster.Update()\n                except RuntimeError:\n                    return\n\n                itk_image_data = caster.GetOutput()\n\n            self.progress.value = STEP_PCT[3]\n            self.progress.message = \"Saving results\"\n\n            label_map_dataset = dataset.create_child_dataset()\n            itkutils.set_itk_image_on_dataset(itk_image_data, label_map_dataset,\n                                              dtype=py_buffer_type)\n\n            self.progress.value = STEP_PCT[4]\n\n            # Set up dictionary to return operator results\n            returnValues = {}\n            returnValues[\"label_map\"] = label_map_dataset\n\n        except Exception as exc:\n            print(\"Problem encountered while running %s\" %\n                  self.__class__.__name__)\n            raise exc\n\n        return returnValues\n",
+                                    "type": "Python"
+                                }
+                            ]
+                        }
+                    ],
+                    "description": "{\n  \"name\" : \"ReconstructSIRT\",\n  \"label\" : \"SIRT Reconstruction\",\n  \"description\" : \"Reconstruct a tilt series using Simultaneous Iterative Reconstruction Techniques Technique (SIRT) with a Positivity Constraint.\n\nThe tilt axis must be parallel to the x-direction and centered in the y-direction.\n\nThe size of reconstruction will be (Nx,Ny,Ny). The number of iterations can be specified below.\n\nReconstrucing a 256x256x256 tomogram typically takes more than 100 mins with 5 iterations.\",\n  \"children\": [\n    {\n      \"name\": \"reconstruction\",\n      \"label\": \"Reconstruction\",\n      \"type\": \"reconstruction\"\n    }\n  ],\n  \"parameters\" : [\n    {\n      \"name\" : \"Niter\",\n      \"label\" : \"Number Of Iterations\",\n      \"type\" : \"int\",\n      \"default\" : 10,\n      \"minimum\" : 1\n    },\n    {\n      \"name\" : \"stepSize\",\n      \"label\" : \"Update step size\",\n      \"type\" : \"double\",\n      \"precision\": 5,\n      \"step\" : 0.0001,\n      \"default\" : 0.0001,\n      \"minimum\" : 0\n    },\n    {\n      \"name\" : \"updateMethodIndex\",\n      \"label\" : \"Update method\",\n      \"type\" : \"enumeration\",\n      \"default\" : 0,\n      \"options\" : [\n        {\"Landweber\": 0},\n        {\"Cimmino\": 1},\n        {\"Component average\": 2}\n      ]\n    },\n    {\n      \"name\" : \"Nupdates\",\n      \"label\" : \"Percent Of Updates for Live Reconstruction: \\n0% means no updates. \\n100% means an update for every slice.\",\n      \"type\" : \"int\",\n      \"default\" : 0,\n      \"minimum\" : 0,\n      \"maximum\" : 100\n    }\n  ]\n}\n",
+                    "id": "0x2d1d400",
+                    "label": "Reconstruct (SIRT)",
+                    "script": "import numpy as np\nimport scipy.sparse as ss\nimport tomviz.operators\nimport time\n\n\nclass ReconSirtOperator(tomviz.operators.CancelableOperator):\n\n    def transform(self, dataset, Niter=10, stepSize=0.0001,\n                  updateMethodIndex=0, Nupdates=0):\n        \"\"\"\n        3D Reconstruct from a tilt series using Simultaneous Iterative\n        Reconstruction Techniques (SIRT)\"\"\"\n        self.progress.maximum = 1\n\n        update_methods = ('landweber', 'cimmino', 'component averaging')\n        #reference\n        \"\"\"L. Landweber, Amer. J. Math., 73 (1951), pp. 615–624\"\"\"\n        \"\"\"G. Cimmino, La Ric. Sci., XVI, Ser. II, Anno IX, 1 (1938),\n        pp. 326–333\n        \"\"\"\n        \"\"\"Y. Censor et al, Parallel Comput., 27 (2001), pp. 777–808\"\"\"\n\n        # Get Tilt angles\n        tiltAngles = dataset.tilt_angles\n\n        #remove zero tilt anlges\n        if np.count_nonzero(tiltAngles) < tiltAngles.size:\n            tiltAngles = tiltAngles + 0.001\n\n        # Get Tilt Series\n        tiltSeries = dataset.active_scalars\n        (Nslice, Nray, Nproj) = tiltSeries.shape\n\n        #Check if there's negative values, shift by minimum if true.\n        if np.any(tiltSeries < 0):\n            tiltSeries -= np.amin(tiltSeries)\n\n        if tiltSeries is None:\n            raise RuntimeError(\"No scalars found!\")\n\n        # Determine slice for live updates\n        Nupdates = calc_Nupdates(Nupdates, Niter)\n\n        # Generate measurement matrix\n        self.progress.message = 'Generating measurement matrix'\n        A = parallelRay(Nray, 1.0, tiltAngles, Nray, 1.0) #A is a sparse matrix\n        recon = np.zeros([Nslice, Nray, Nray], dtype=np.float32, order='F')\n\n        self.progress.maximum = Nslice*Niter + 1\n        step = 0\n\n        #create a reconstruction object\n        r = SIRT(A, update_methods[updateMethodIndex], Nslice)\n        r.initialize()\n        step += 1\n        self.progress.value = step\n\n        t0 = time.time()\n        counter = 1\n        etcMessage = 'Estimated time to complete: n/a'\n\n        #create child for recon\n        child = dataset.create_child_dataset()\n\n        for i in range(Niter):\n\n            for s in range(Nslice):\n                if self.canceled:\n                    return\n\n                self.progress.message = 'Iteration No.%d/%d,Slice No.%d/%d.' % (\n                    i + 1, Niter, s + 1, Nslice) + etcMessage\n\n                b = tiltSeries[s, :, :].transpose().flatten()\n                recon_slice = recon[s, :, :].flatten()\n                recon[s, :, :] = r.recon2(b, recon_slice, stepSize,\n                                          s).reshape((Nray, Nray))\n\n                step += 1\n                self.progress.value = step\n\n                timeLeft = (time.time() - t0) / counter * (Nslice*Niter -\n                                                           counter)\n                counter += 1\n                timeLeftMin, timeLeftSec = divmod(timeLeft, 60)\n                timeLeftHour, timeLeftMin = divmod(timeLeftMin, 60)\n                etcMessage = 'Estimated time to complete: %02d:%02d:%02d' % (\n                    timeLeftHour, timeLeftMin, timeLeftSec)\n\n                # Give 4 updates for first iteration.\n                if Nupdates != 0 and i == 0 and (s + 1) % (Nslice//4) == 0:\n                    child.active_scalars = recon\n                    self.progress.data = child\n\n            #Positivity constraint.\n            recon[recon < 0] = 0\n\n            #Update at the end of each iteration.\n            if Nupdates != 0 and (i + 1) % Nupdates == 0:\n                child.active_scalars = recon\n                self.progress.data = child\n\n        # One last update of the child data.\n        child.active_scalars = recon #add recon to child\n        self.progress.data = child\n\n        returnValues = {}\n        returnValues[\"reconstruction\"] = child\n        return returnValues\n\n\nclass SIRT:\n\n    def __init__(self, A, method, Nslice):\n        self.A = A\n        self.method = method\n        (self.Nrow, self.Ncol) = self.A.shape\n        #f = Placeholder for 2d image\n        self.f = np.zeros(self.Ncol, dtype=np.float32)\n\n    def initialize(self):\n        if self.method == 'landweber':\n            self.AT = self.A.transpose()\n        elif self.method == 'cimmino':\n            self.A = self.A.tocsr()\n            self.AT = self.A.transpose()\n            rowInnerProduct = np.zeros(self.Nrow, dtype=np.float32)\n            self.a = np.zeros(self.Ncol, dtype=np.float32)\n            # Calculate row inner product, placeholder for matrix rows\n            row = np.zeros(self.Ncol, dtype=np.float32)\n            for i in range(self.Nrow):\n                row[:] = self.A[i, :].toarray()\n                rowInnerProduct[i] = np.dot(row, row)\n            self.M = ss.diags(1/rowInnerProduct)\n        elif self.method == 'component averaging':\n            self.A = self.A.tocsr()\n            self.AT = self.A.transpose()\n            weightedRowProduct = np.zeros(self.Nrow, dtype=np.float32)\n            self.a = np.zeros(self.Ncol, dtype=np.float32)\n\n            # Calculate number of non-zero elements in each column\n            s = np.zeros(self.Ncol, dtype=np.float32)\n\n            for i in range(self.Ncol):\n                s[i] = self.A[:, i].count_nonzero()\n\n            # Calculate weighted row product\n            row = np.zeros(self.Ncol) #placeholder for matrix rows\n            for i in range(self.Nrow):\n                row[:] = self.A[i, :].toarray()\n                weightedRowProduct[i] = np.sum(row * row * s)\n            self.M = ss.diags(1/weightedRowProduct)\n        else:\n            print(\"Invalid update method!\")\n\n    def recon2(self, b, x, stepSize, index):\n        self.f[:] = x\n        if self.method == 'landweber':\n            a = self.AT.dot(b - self.A.dot(self.f))\n            self.f = self.f + a * stepSize\n        elif self.method == 'cimmino':\n            self.a[:] = 0\n            g = self.M.dot(b - self.A.dot(self.f))\n            self.a = self.AT.dot(g)\n            self.f = self.f + self.a * stepSize / self.Nrow\n        elif self.method == 'component averaging':\n            self.a[:] = 0\n            g = self.M.dot(b - self.A.dot(self.f))\n            self.a = self.AT.dot(g)\n            self.f = self.f + self.a * stepSize\n        else:\n            print(\"Invalid update method!\")\n        return self.f\n\n\ndef parallelRay(Nside, pixelWidth, angles, Nray, rayWidth):\n    # Suppress warning messages that pops up when dividing zeros\n    np.seterr(all='ignore')\n    Nproj = angles.size # Number of projections\n\n    # Ray coordinates at 0 degrees.\n    offsets = np.linspace(-(Nray * 1.0 - 1) / 2,\n                          (Nray * 1.0 - 1) / 2, Nray) * rayWidth\n    # Intersection lines/grid Coordinates\n    xgrid = np.linspace(-Nside * 0.5, Nside * 0.5, Nside + 1) * pixelWidth\n    ygrid = np.linspace(-Nside * 0.5, Nside * 0.5, Nside + 1) * pixelWidth\n    # Initialize vectors that contain matrix elements and corresponding\n    # row/column numbers\n    rows = np.zeros((2 * Nside * Nproj * Nray), dtype=np.float32)\n    cols = np.zeros((2 * Nside * Nproj * Nray), dtype=np.float32)\n    vals = np.zeros((2 * Nside * Nproj * Nray), dtype=np.float32)\n    idxend = 0\n\n    for i in range(0, Nproj): # Loop over projection angles\n        ang = angles[i] * np.pi / 180.\n        # Points passed by rays at current angles\n        xrayRotated = np.cos(ang) * offsets\n        yrayRotated = np.sin(ang) * offsets\n        xrayRotated[np.abs(xrayRotated) < 1e-8] = 0\n        yrayRotated[np.abs(yrayRotated) < 1e-8] = 0\n\n        a = -np.sin(ang)\n        a = rmepsilon(a)\n        b = np.cos(ang)\n        b = rmepsilon(b)\n\n        for j in range(0, Nray): # Loop rays in current projection\n            #Ray: y = tx * x + intercept\n            t_xgrid = (xgrid - xrayRotated[j]) / a\n            y_xgrid = b * t_xgrid + yrayRotated[j]\n\n            t_ygrid = (ygrid - yrayRotated[j]) / b\n            x_ygrid = a * t_ygrid + xrayRotated[j]\n            # Collect all points\n            t_grid = np.append(t_xgrid, t_ygrid)\n            xx = np.append(xgrid, x_ygrid)\n            yy = np.append(y_xgrid, ygrid)\n            # Sort the coordinates according to intersection time\n            I = np.argsort(t_grid)\n            xx = xx[I]\n            yy = yy[I]\n\n            # Get rid of points that are outside the image grid\n            Ix = np.logical_and(xx >= -Nside / 2.0 * pixelWidth,\n                                xx <= Nside / 2.0 * pixelWidth)\n            Iy = np.logical_and(yy >= -Nside / 2.0 * pixelWidth,\n                                yy <= Nside / 2.0 * pixelWidth)\n            I = np.logical_and(Ix, Iy)\n            xx = xx[I]\n            yy = yy[I]\n\n            # If the ray pass through the image grid\n            if (xx.size != 0 and yy.size != 0):\n                # Get rid of double counted points\n                I = np.logical_and(np.abs(np.diff(xx)) <=\n                                   1e-8, np.abs(np.diff(yy)) <= 1e-8)\n                I2 = np.zeros(I.size + 1)\n                I2[0:-1] = I\n                xx = xx[np.logical_not(I2)]\n                yy = yy[np.logical_not(I2)]\n\n                # Calculate the length within the cell\n                length = np.sqrt(np.diff(xx)**2 + np.diff(yy)**2)\n                #Count number of cells the ray passes through\n                numvals = length.size\n\n                # Remove the rays that are on the boundary of the box in the\n                # top or to the right of the image grid\n                check1 = np.logical_and(b == 0, np.absolute(\n                    yrayRotated[j] - Nside / 2 * pixelWidth) < 1e-15)\n                check2 = np.logical_and(a == 0, np.absolute(\n                    xrayRotated[j] - Nside / 2 * pixelWidth) < 1e-15)\n                check = np.logical_not(np.logical_or(check1, check2))\n\n                if np.logical_and(numvals > 0, check):\n                    # Calculate corresponding indices in measurement matrix\n                    # First, calculate the mid points coord. between two\n                    # adjacent grid points\n                    midpoints_x = rmepsilon(0.5 * (xx[0:-1] + xx[1:]))\n                    midpoints_y = rmepsilon(0.5 * (yy[0:-1] + yy[1:]))\n                    #Calculate the pixel index for mid points\n                    pixelIndicex = \\\n                        (np.floor(Nside / 2.0 - midpoints_y / pixelWidth)) * \\\n                        Nside + (np.floor(midpoints_x /\n                                          pixelWidth + Nside / 2.0))\n                    # Create the indices to store the values to the measurement\n                    # matrix\n                    idxstart = idxend\n                    idxend = idxstart + numvals\n                    idx = np.arange(idxstart, idxend)\n                    # Store row numbers, column numbers and values\n                    rows[idx] = i * Nray + j\n                    cols[idx] = pixelIndicex\n                    vals[idx] = length\n            else:\n                print(\"Ray No. %d at %f degree is out of image grid!\" %\n                      (j + 1, angles[i]))\n\n    # Truncate excess zeros.\n    rows = rows[:idxend]\n    cols = cols[:idxend]\n    vals = vals[:idxend]\n    A = ss.coo_matrix((vals, (rows, cols)), shape=(Nray * Nproj, Nside**2),\n                      dtype=np.float32)\n    return A\n\n\ndef rmepsilon(input):\n    if (input.size > 1):\n        input[np.abs(input) < 1e-10] = 0\n    else:\n        if np.abs(input) < 1e-10:\n            input = 0\n    return input\n\n\ndef calc_Nupdates(Nupdates, Niter):\n    if Nupdates == 0:\n        Nupdates = 0\n    #If the user selects 100%, update for every slice.\n    elif Nupdates == 100:\n        Nupdates = 1\n    else:\n        Nupdates = int(round((Niter*(1 - Nupdates/100))))\n    return Nupdates\n",
+                    "type": "Python"
+                }
+            ],
+            "reader": {
+                "fileNames": [
+                    "numpy_stack_tomviz_50x50_Octa_Pt_(132, 67, 253)_None_3_0_None_None_None_10.npy"
+                ]
+            }
+        }
+    ],
+    "layouts": [
+        {
+            "id": 4386,
+            "items": [
+                [
+                    {
+                        "direction": 0,
+                        "fraction": 0.5,
+                        "viewId": 4385
+                    }
+                ],
+                [
+                    {
+                        "direction": 0,
+                        "fraction": 0.5,
+                        "viewId": 4385
+                    }
+                ]
+            ],
+            "servers": 20,
+            "xmlGroup": "misc",
+            "xmlName": "ViewLayout"
+        }
+    ],
+    "moleculeSources": [
+    ],
+    "tomviz": {
+        "paraViewVersion": "5.5.0",
+        "version": "1.8.0",
+        "versionExtra": "107-g67c836a"
+    },
+    "views": [
+        {
+            "active": true,
+            "axesGridVisibility": false,
+            "backgroundColor": [
+                [
+                    0.32,
+                    0.34,
+                    0.43
+                ]
+            ],
+            "camera": {
+                "eyeAngle": 0,
+                "focalPoint": [
+                    24.499999999999975,
+                    24.500000000000025,
+                    24.500000000000018
+                ],
+                "parallelScale": 42.4352447854375,
+                "position": [
+                    11.752652246318558,
+                    -8.556038916988854,
+                    20.257506968009267
+                ],
+                "viewAngle": 30,
+                "viewUp": [
+                    0.9267116638320032,
+                    -0.3674566362749377,
+                    0.07862005199202438
+                ]
+            },
+            "centerAxesVisible": false,
+            "centerOfRotation": [
+                24.5,
+                24.5,
+                24.5
+            ],
+            "id": 4385,
+            "interactionMode": "3D",
+            "isOrthographic": false,
+            "orientationAxesVisible": true,
+            "servers": 21,
+            "viewSize": [
+                910,
+                276
+            ],
+            "xmlGroup": "views",
+            "xmlName": "RenderView"
+        }
+    ]
+}
