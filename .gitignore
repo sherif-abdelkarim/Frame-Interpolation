@@ -1,7 +1,7 @@
 #TomoSpecific
 *.npy
 *.hdf5
-*.h5
+#*.h5
 
 
 # Prerequisites
