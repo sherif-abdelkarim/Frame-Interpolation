@@ -12,8 +12,8 @@ The parameters in .json files are similar. For example, in `params_patch_cnn.jso
 - S_2: Strides size for the second convolution layers (it must be 2 for patch CNN method).
 - model_name: Name of the model to be saved. 
 - batchsize: Batch size.
-- train_images: `<path/to/the/directory/containing/trainig/images`. Generated using `write_images.py`.
-- valid_images: `path/to/the/directory/containing/validation/images`. Generated using `write_images.py`. 
+- train_images: `<path/to/the/directory/containing/trainig/images>`. Generated using `write_images.py`.
+- valid_images: `<path/to/the/directory/containing/validation/images>`. Generated using `write_images.py`. 
 - shuffle_at_each_epoch: Shuffle at the beggining of each epoch. 
 - epochs: Number of epochs.
 - optimizer_name: Name of the optimizer, only supports SGD and Adam.
