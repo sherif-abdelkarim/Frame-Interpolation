@@ -11,6 +11,7 @@ Parameters you need to specify in data_hparams.json are:
 - where_to_save: `<path/to/the/directory/where/you/want/to/save/the/images>`.
     * Make sure the directoy has five TB to contain the data for all the frame gaps.
     * The best format is the exmaple in the data_hparams.json
+- normal: If True, it will generate data for path CNN models.
 - residual: If True, it will generate data for residual CNN models. Make sure to save the residual data in a separate directory than the normal data.
 - res2res: If True, it will generate data for res2res CNN models. Make sure to save the res2res data in a separate directory than the normal data and residual data.
-    * within the .json file, either both residual and res2res parameters are False OR only one of them is True. 
+    * Within the .json file, from the three parameters above, only one of them can be True, and the other two must be set to False.
