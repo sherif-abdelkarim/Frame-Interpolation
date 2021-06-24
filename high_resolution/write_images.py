@@ -100,10 +100,13 @@ if __name__ == "__main__":
     split = h_params['train_test_split']
     target_dir = h_params['where_to_save']
     
+    normal = h_params['normal']
+    residual = h_params['residual']
+    res2res = h_params['res2res']
 
     big_training_array = np.load(input_file)
     log.info("data is loaded")
     chunks = np.array_split(big_training_array, n_series, axis=-1)
     for i, tilt in enumerate(chunks):
-        prepare_data(tilt, frame_gap, noise_levels, rep, split, target_dir, i)
+        prepare_data(tilt, frame_gap, noise_levels, rep, split, target_dir, i, normal=normal, residual=residual, res2res=res2res)
         log.info("data for chunk {} are created.".format(str(i)))
