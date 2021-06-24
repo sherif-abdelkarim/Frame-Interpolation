@@ -10,4 +10,4 @@ Parameters you need to specify in data_hparams.json are:
 - train_test_split: 1, incase of using separate train and test .npy files.
 - where_to_save: `path to the directory where you want to save the images`
     * Make sure the directoy has five TB to contain the data for all the frame gaps.
-    * best format is the exmaple in the dat_hparams.json
+    * best format is the exmaple in the data_hparams.json
