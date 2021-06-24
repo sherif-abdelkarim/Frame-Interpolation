@@ -12,6 +12,7 @@ import os
 import matplotlib.pyplot as plt
 from ssim_loss import *
 
+from data_generator import DataGenerator
 from data_generator import ResidualDataGenerator
 
 import logging as log
