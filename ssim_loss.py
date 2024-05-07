@@ -2,6 +2,14 @@ import tensorflow as tf
 import keras
 import keras.backend as K
 
+def ssim_loss_original(y_true, y_pred):
+    """
+    Structural similarity loss function (https://en.wikipedia.org/wiki/Structural_similarity)
+    """
+    y_true = tf.expand_dims(y_true, axis=-1)
+    y_pred = tf.expand_dims(y_pred, axis=-1)
+    return 1 - tf.reduce_mean(tf.image.ssim(y_true, y_pred, max_val=1.0))
+
 def ssim_loss(y_true, y_pred):
     """
     Structural similarity loss function (https://en.wikipedia.org/wiki/Structural_similarity)
